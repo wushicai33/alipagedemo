@@ -1,3 +1,4 @@
+## react + typescript + redux(iron-redux react-redux) 简易框架
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
