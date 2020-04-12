@@ -1,0 +1,90 @@
+.new-job-box{
+    height: 364px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    .new-job-left{
+        width: 850px;
+        height: 300px;
+        border-radius: 3px;
+        box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+        .show-job{
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            padding:0 14px;
+            line-height: 50px;
+            color: #000000;
+            :last-child{
+                color: rgba(31,56,88,0.60);
+            }
+        }
+        .over-hide-box{
+            height: 250px;
+            overflow: hidden;
+            position: relative;
+            margin-right: 15px;
+            ul{
+                position: absolute;
+                li{
+                    height: 50px;
+                    line-height: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 14px;
+                    color: rgba($color: #000000, $alpha: 0.6);
+                    .item-job{
+                       width: 400px;
+                       overflow: hidden;
+                       text-overflow: ellipsis;
+                       white-space: nowrap;
+                       color: #3C99D8;
+                       margin-right: 70px
+                    }
+                    .item-place{
+                        width: 202px;
+                        margin-right: 70px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    .item-time{
+                        width: 70PX;
+                        text-align: right
+                    }
+                    
+                }
+            }
+           
+        }
+    }
+    .new-job-right{
+        width: 310px;
+        height: 300px;
+        border-radius: 3px;
+        margin-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        div{
+            width: 310px;
+            height: 140px;
+            border-radius: 3px;
+            box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        :first-child{
+            img{
+                height: 60px;
+                width: 179px;
+            }
+        }
+        .alibaba-log{
+            margin-top: 20px;
+        }
+        
+    }
+}

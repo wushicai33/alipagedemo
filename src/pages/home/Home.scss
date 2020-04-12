@@ -1,0 +1,100 @@
+.home-page{
+    .bg-box{
+        width: 100%;
+        height: 478px;
+        background-image: url(https://img.alicdn.com/tfs/TB14TEEm7CWBuNjy0FaXXXUlXXa-1440-478.png) ;
+        .bg-dim{
+            height: 478px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(31,56,88,0.40);
+            .search-container{
+                width: 1000px;
+                height: 478px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .search{
+                    width: 490px;
+                    height: 296px;
+                    p{
+                        font-size: 54px;
+                        color: #fff;
+                        line-height: 56px;
+                        font-family: Rufina-Bold;
+                    }
+                    .cn{    
+                        font-size: 34px;
+                        color: #fff;
+                        margin-bottom: 38px;
+                        line-height: 48px;
+                    }
+
+                    .search-box{
+                        height: 60px;
+                        width: 490px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background: rgba($color: #fff, $alpha: 0.1);
+                        .job-search{
+                            .ant-input-wrapper{
+                                display: flex;
+                                width: 490px;
+                                margin-left: 10px;
+                                .ant-input{
+                                    width: 368px;
+                                    font-size: 15px;
+                                    font-family: PingFangSC-Regular;
+                                    outline: none;
+                                    border: none;
+                                    border-radius: 6px
+                                }
+                            }
+                            .ant-input-group-addon{
+                                margin-left: 10px;
+                                width: 0;
+                                .ant-input-search-button{
+                                    width: 92px;
+                                    background: #F37327;
+                                    border: none;
+                                    border-radius: 6px;
+                                 
+                                    
+                                }
+                               
+                            }
+                        }
+                    }
+                    
+                    .hot-search{
+                        height: 38px;
+                        line-height: 38px;
+                        color: rgba(255,255,255,0.80);
+                        display: flex;
+                        font-family: PingFangSC-Regular;
+                        justify-content: center;
+                        font-size: 12px;
+                        span{
+                            padding-right: 10px;
+                            &.item{
+                                &:hover{
+                                    color: #F37327;
+                                }
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        height: 44px;
+        line-height: 44px;
+        background-color: #2C2F33;
+        text-align: center;
+    }
+}

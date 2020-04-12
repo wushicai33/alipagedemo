@@ -1,0 +1,76 @@
+.head-nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:52px;
+    background-color: #2C2F33;
+    .cut-off{
+        border: 1px solid #ddd;
+        width: 0;
+        height: 18px;
+        margin: 0 10px;
+        opacity: 0.8;
+    }
+    .nav-content{
+        width: 1000px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        .nav-link{
+            width: 450px;
+            display: flex;
+            .nav-item{
+                display: inline-block;
+                font-size: 14px;
+                height: 20px;
+                line-height: 20px;
+                width: 90px;
+                color: white;
+                opacity: 0.8;
+                &.active{
+                    color: #F37327;
+                    a{
+                        color: #F37327;
+                        opacity: 1;
+                    }
+                }
+                a{
+                    color: white;
+                }
+                &:hover{
+                    opacity: 1;
+                    color: #F37327;
+                    a{
+                        color: #F37327;
+                    }
+                    
+                }
+            }
+        }
+
+        .ali-log{
+            height:20px;
+        }
+    }
+
+    .welcome{
+        display: flex;
+        width: 340px;
+        font-size: 14px;
+        justify-content: flex-end;
+        align-content: center;
+        height: 20px;
+        color:rgba($color: #fff, $alpha: 0.8);
+        .cut-off{
+            height: 18px;
+            display: inline-block
+        }
+        a{
+            color:rgba($color: #fff, $alpha: 0.8);
+            font-size: 12px;
+            line-height: 20px;
+            
+        }
+    }
+   
+}
